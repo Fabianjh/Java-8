@@ -1,4 +1,4 @@
-package Referencia;
+package com.example.demo.Referencia;
 
 public class User{
 
@@ -13,7 +13,7 @@ public class User{
 
     }
     public void referenciaAMetodoParticular(){
-        System.out.println("Probando referencia a metodo particular")
+        System.out.println("Probando referencia a metodo particular");
 
     }
     public void mostrarNombre(){

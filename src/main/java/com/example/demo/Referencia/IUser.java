@@ -1,6 +1,5 @@
-package Referencia;
-
+package com.example.demo.Referencia;
 public interface IUser{
-    User crear(String nombre):
+    User crear(String nombre);
     
 }

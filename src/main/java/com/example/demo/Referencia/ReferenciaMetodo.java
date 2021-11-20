@@ -1,4 +1,4 @@
-package Referencia;
+package com.example.demo.Referencia;
 public class ReferenciaMetodo{
 
     public static void main (String arg[]){

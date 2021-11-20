@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.Lambda;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -14,12 +14,12 @@ public class lambda implements PorDefecto{
 	MiNombre minombreAnonima= new MiNombre() {
 		@Override
 		public String MiNombre(){
-			return "Alberto Anonimo"
+			return "Alberto Anonimo";
 		}
 
 	};
-		System.out.Println (minombreAnonima.miNombre());
-		MiNombre miNombreLambda = () -> "Alberto Lambda";
+		System.out.println (minombreAnonima.miNombre());
+		MiNombre miNombreLambda = () -> ("Alberto Lambda");
 		System.out.Println (miNombreLambda.miNombre());
 
 
@@ -29,7 +29,7 @@ public class lambda implements PorDefecto{
 @SpringBootApplication
 public class DemoApplication {
 
-	public static void main(String[] args) {
+	public static void main (String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	};
 	Sumar suma = new Sumar(){
@@ -51,8 +51,19 @@ public class DemoApplication {
 			System.out.println(l.nombrePorDefecto("Alberto"));
 		}
 	
-	};
+	}
+@Override
+public void mostrarNombre(String nombre) {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public void mostrarNombre(String nombre) {
+	// TODO Auto-generated method stub
+	
+};
 
 
 
+}
 }
